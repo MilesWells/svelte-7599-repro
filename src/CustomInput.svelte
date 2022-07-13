@@ -1,4 +1,4 @@
-<svelte:options tag="c-input" />
+<svelte:options tag="custom-input" />
 
 <script>
 	console.log($$slots);

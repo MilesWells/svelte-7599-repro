@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="dist/main.js"></script>
+
+	<style>
+		body {
+			display: grid;
+			gap: 3rem;
+		}
+
+	</style>
+</head>
+
+<body>
+	<custom-input>
+		Test label
+		<span slot="description">Test</span>
+	</custom-input>
+
+	<custom-element>
+		<span slot="a">hello world</span>
+		<span>bye</span>
+		<span>world</span>
+	</custom-element>
+
+	<custom-element>
+		<span slot="a">hello world</span>
+		<span slot="b">hello world</span>
+		<span>bye world</span>
+	</custom-element>
+</body>
+
+</html>
